@@ -114,7 +114,7 @@ main{
     left: 30%;
 }
 .videoFrame{
-    display: flex;
+    display: none;
     gap: 1em;
     z-index: 2;
     position: absolute;
