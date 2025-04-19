@@ -1,0 +1,41 @@
+.activeLi{
+    color: rgb(0, 0, 0, .7);
+    text-decoration: 1.5px underline black;
+}
+
+.newElementP{
+    font-size: 1.5em;
+    font-weight: 800;
+    color: gray;
+    grid-column: 2;
+}
+
+.fVectorNormal{
+    animation: moveFirstVector 1s ease  normal forwards;
+}
+.tVectorNormal{
+    animation: moveTwhoVector 1s ease  normal forwards;
+}
+.fVectorReverse{
+    animation: moveFirstVector 1s ease  reverse forwards;
+}
+.tVectorReverse{
+    animation: moveTwhoVector 1s ease  reverse forwards;
+}
+
+@keyframes moveFirstVector {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes moveTwhoVector {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(270deg);
+    }
+}
